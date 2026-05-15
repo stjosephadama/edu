@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Saint Joseph Catholic School - Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Saint Joseph Catholic School Logo">
+                <h1>SAINT JOSEPH <span>CATHOLIC SCHOOL</span><br><small>Adama, Ethiopia</small></h1>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="staff.html">STAFF</a></li>
+                    <li><a href="gallery.html" class="active">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="https://naols90.github.io/Saint-joseph-web-result-/" target="_blank">STUDENT PORTAL</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Page Header -->
+    <section class="gallery-page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Memories and moments at Saint Joseph Catholic School</p>
+        </div>
+    </section>
+
+    <!-- Category Tabs -->
+    <section class="gallery-tabs-section">
+        <div class="container">
+            <div class="gallery-tabs">
+                <button class="tab-btn active" data-category="school">🏫 School</button>
+                <button class="tab-btn" data-category="events">🎉 Events</button>
+                <button class="tab-btn" data-category="sports">⚽ Sports</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="gallery-grid-section">
+        <div class="container">
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Images will be loaded here by JavaScript -->
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-pulse"></i> Loading...
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="gallery-pagination" id="galleryPagination">
+                <!-- Pagination buttons will be here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Saint Joseph Logo">
+                        <h3>SAINT JOSEPH <span>CATHOLIC SCHOOL</span></h3>
+                    </div>
+                    <p>Excellence in Education since 1958. Run by the De La Salle Christian Brothers.</p>
+                    <p class="motto-footer">"Teaching minds • Touching hearts • Transforming lives"</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="staff.html">Our Staff</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +251-221-112587</p>
+                    <p><i class="fas fa-envelope"></i> info@saintjoseph-adama.edu.et</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Adama, Ethiopia</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>COPYRIGHT © 2025 SAINT JOSEPH CATHOLIC SCHOOL - ADAMA</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
